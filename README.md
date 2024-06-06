@@ -10,6 +10,8 @@ flow code nya -> kita update di column 1 all row spreadsheet -> kita ketik comma
 
 ### File <code>bot2.gs</code> :
 
-flow code nya -> kita update di column 1 all row spreadsheet -> kita langsung dapat update setiap 1 menit (di trigger tiap semenit) dengan catatan sudah menjalankan perintah <code>/start</code> untuk mengauthorize chat ID
+flow code nya -> kita update di column 1 all row spreadsheet -> kita langsung dapat update setiap 1 menit (di _trigger_ tiap semenit) dengan catatan sudah menjalankan perintah <code>/start</code> untuk _mengauthorize_ chat ID
+
+#### <code>_Notes :_</code>
 
 Beberapa hal seperti column, message send (bisa jg send timestamps for better updates system experience) bisa di adjust sesuai kebutuhan.
